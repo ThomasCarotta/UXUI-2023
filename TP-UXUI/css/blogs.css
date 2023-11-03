@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height:80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    background-color: #cf2a37;
+}
+
+header .header-icons-container .icons {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+nav .profile-link a {
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 120%;
+}
+
+main .blogpost{
+    background-color:#e6e9ed;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+.div .texto {
+    display:flex ;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.blogpost img{
+    width: 700px;
+    height: auto;
+    margin-top: 1em;
+    margin-left: 7em;
+}
+
+.blogpost h2, .blogpost h3, .blogpost p, .blogpost a {
+    font-family: 'Roboto mono', monospace;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.blogpost h2{
+    font-size: 30px;
+}
+
+.blogpost h3{
+    font-size: 25px;
+    top: -16px;
+}
+
+.blogpost p{
+    font-size: 20px;  
+    top: -4%;
+}
+
+.blogpost a{
+    font-size: 20px;  
+    top:1%;
+    border-bottom: 1px solid black;
+}
+
+.recetas-titulo{
+    font-family: 'Roboto mono', monospace;
+    font-size: 20px;
+    position: relative;
+    margin-left: 50%;
+}
+
+.linea-recetas {
+    border: none;
+    height: 1px;
+    background-color: #cdd2da;
+    width: 80%;
+}
+
+.blogs-top{
+    position: relative;
+    justify-content: space-around; 
+    display: flex;
+    justify-content: space-evenly ;
+    margin-bottom: 60px; 
+    margin-top: 25px;
+    margin-inline: 100px;
+
+}
+
+.Pollo-naranja img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.Pollo-naranja h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+.Pollo-naranja p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.Pollo-naranja .Leer-Mas-button-pollo-narnaja{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+.risotto-champiñones img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.risotto-champiñones h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+
+.risotto-champiñones p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    margin-left: 0px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.risotto-champiñones .Leer-Mas-button-risotto-champiñones{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+.Tacos-Pastor img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.Tacos-Pastor h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+
+.Tacos-Pastor p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    margin-left: 0px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.Tacos-Pastor .Leer-Mas-button-Tacos-Pastor{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+.blogs-bottom{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-inline: 100px;
+}
+
+
+.Borsch img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.Borsch h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+.Borsch p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.Borsch .Leer-Mas-button-Borsch{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+.cordero-con-cuscus img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.cordero-con-cuscus h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+
+.cordero-con-cuscus p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    margin-left: 0px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.cordero-con-cuscus .Leer-Mas-button-Cordero-con-cuscus{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+.Steak-Tartare img{
+    display: column;
+    position: relative;
+    width: 300px;
+    
+}
+
+.Steak-Tartare h3{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    position: relative;
+    top: 0px;  
+}
+
+
+.Steak-Tartare p{
+    font-family: 'Roboto mono', monospace;
+    font-size: 15px;
+    margin-left: 0px;
+    top: 10px;
+    max-width: 300px;
+}
+
+.Steak-Tartare .Leer-Mas-button-Tacos-Pastor{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 100%;
+}
+
+footer .footer-top{
+    width: 100%;
+    height: 30px;
+    display: grid;
+    background-color: #cdd2da;
+    margin-top: 70px;
+}
+
+footer .footer-bottom{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #cf2a37;
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    align-items: center; 
+}
+
+@media screen and (max-width: 600px) {
+    .blogs-top, .blogpost, .blogs-bottom {
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .blogs-top, .blogpost, .blogs-bottom {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blogpost img{
+        width: 70%;
+        height: auto;
+    }
+}
