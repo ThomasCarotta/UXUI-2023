@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height:80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    background-color: #661fc7;
+}
+
+header .header-icons-container .icons {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-self: end;
+    margin-right: 50px;
+    
+}
+
+header .icons span {
+    color: white;
+}
+
+
+body{
+    background-color: #111111;
+}
+
+
+main .profile{
+    background-color:#696969;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+.div .texto {
+    display:flex ;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.profile img{
+    width: 700px;
+    height: auto;
+    margin-top: 1em;
+    margin-left: 7em;
+}
+
+.profile h2, .profile p {
+    font-family: 'Roboto mono', monospace;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.profile h2{
+    font-size: 30px;
+}
+
+.profile p{
+    font-size: 20px;  
+    top: -4%;
+}
+
+.linea-perfil {
+    border: none;
+    height: 1px;
+    background-color: #cdd2da;
+    width: 80%;
+}
+.soft-Skills h2{
+    font-family: 'Roboto mono', monospace;
+    margin-left: 50%;
+    position: relative;
+    color: white;
+}
+
+.soft-Skills p{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+}
+
+.soft-Skills a{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto;
+    position: relative;
+    color: white;
+    border-bottom: 1px solid white;
+    right: -50%;
+}
+
+.Hard-Skills h2{
+    font-family: 'Roboto mono', monospace;
+    margin-left: 50%;
+    position: relative;
+    color: white;
+}
+
+.Hard-Skills p{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+}
+
+.Hard-Skills a{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    border-bottom: 1px solid white;
+    max-width: 90%;
+    right: -50%;
+}
+
+.experience h2{
+    font-family: 'Roboto mono', monospace;
+    margin-left: 50%;
+    position: relative;
+    color: white;
+}
+
+.experience p{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+    
+}
+
+.experience a{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    border-bottom: 1px solid white;
+    max-width: 90%;
+    right: -50%;
+}
+
+.linea-soft {
+    border: none;
+    height: 1px;
+    background-color: #cdd2da;
+    width: 80%;
+    
+}
+
+.linea-hard {
+    border: none;
+    height: 1px;
+    background-color: #cdd2da;
+    width: 80%;
+}

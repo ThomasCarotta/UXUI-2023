@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height:80px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 80px;
+    display: grid;
+    background-color: #661fc7;
+}
+
+header .header-icons-container .icons {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-self: end;
+    margin-right: 50px;
+    
+}
+
+header .icons span {
+    color: white;
+}
+
+.linea {
+    border: none;
+    height: 2px;
+    background-color: white;
+    width: 80%;
+}
+
+.PerfilBoton a{
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 100%;
+}
+
+body{
+    background-color: #111111;
+}
+
+main .texto h1{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+    margin-left: 50%;
+}
+
+main .texto p{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+
+}
+
+.lenguajes{
+    background-color: #696969;
+}
+
+.lenguajes .Python h4, .JavaScript h4, .Java h4, .CSS h4, .HTML h4{
+    font-family: 'Roboto mono', monospace;
+    margin-left: auto ;
+    position: relative;
+    color: white;
+    max-width: 90%;
+    margin-left: 50%;
+}
+
+.lenguajes .Python p, .JavaScript p, .Java p, .CSS p, .HTML p{
+    font-family: 'Roboto mono', monospace;
+    position: relative;
+    color: white;
+}
+
